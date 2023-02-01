@@ -37,6 +37,7 @@ alias phpunit='php vendor/bin/phpunit'
 alias redis-flush='redis-cli flushall'
 alias art='php artisan'
 alias laralogs='tail -n 200 -f storage/logs/laravel.log'
+alias do='./do.sh'
 
 # find files which contain a phrase in current directory (recursive)
 contains() {
