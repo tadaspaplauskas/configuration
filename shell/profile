@@ -38,6 +38,7 @@ alias redis-flush='redis-cli flushall'
 alias art='php artisan'
 alias laralogs='tail -n 200 -f storage/logs/laravel.log'
 alias do='./do.sh'
+alias serve='open http://localhost:8000 && php artisan serve'
 
 # find files which contain a phrase in current directory (recursive)
 contains() {
